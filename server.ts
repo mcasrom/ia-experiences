@@ -88,7 +88,7 @@ Sitemap: ${req.protocol}://${req.get("host")}/sitemap.xml
 // 2. Sitemap.xml dynamic indexation builder
 app.get("/sitemap.xml", (req, res) => {
   res.setHeader("Content-Type", "application/xml");
-  const host = `${req.protocol}://${req.get("host")}`;
+  const host = `https://${req.get("host")}`;
   const db = getDatabase();
   
   const urls = [
