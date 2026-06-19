@@ -11,7 +11,7 @@ dotenv.config();
 const app = express();
 app.use(express.json());
 
-const PORT = 3000;
+const PORT = parseInt(process.env.PORT || "3000");
 
 // JSON database file configuration for dynamic entries and comments
 const DB_FILE = path.join(process.cwd(), "db.json");
