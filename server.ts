@@ -81,7 +81,7 @@ app.get("/robots.txt", (req, res) => {
 Allow: /
 Disallow: /api/admin/
 
-Sitemap: ${req.protocol}://${req.get("host")}/sitemap.xml
+Sitemap: https://${req.get("host")}/sitemap.xml
 `);
 });
 
