@@ -1,0 +1,6 @@
+{
+  "name": "Latent Spaces",
+  "description": "Un blog bilingüe de ingeniería de prompts, modelos de IA, conceptos técnicos y experimentos interactivos.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
